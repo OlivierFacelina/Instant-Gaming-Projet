@@ -621,6 +621,40 @@ background-color: #FF5400;
     margin: 10px;
 }
 
+/* INSCRIPTION */
+
+.promo_on_downsite{
+    background-color: #464646;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.white_txt_on_promo_downsite{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.orange_button button{
+          padding-left: 10px;
+          padding-top: 10px;
+          padding-right: 10px;
+          padding-bottom: 10px;
+          margin-left: 10px;
+          margin-top: 10px;
+          margin-right: 10px;
+          margin-bottom: 10px;
+          background-color: #ff5400;
+          color: #ffffff;
+          border-left-width: 1px;
+          border-top-width: 1px;
+          border-right-width: 1px;
+          border-bottom-width: 1px;
+          border-color: #ff5400;
+          border-radius: 5px;
+          cursor: pointer;
+} 
+
+/* FOOTER */
+
 footer{
     background-color: #101010;
     padding-bottom: 20px;
