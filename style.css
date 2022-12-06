@@ -1,0 +1,240 @@
+/* GENERAL */
+
+body {
+    background-color: black;
+}
+
+ul {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+    list-style-type: none;
+}
+
+li {
+    margin-left: 2vh;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+@media only screen and (max-width: 667px) {
+    li a {
+        display: none;
+    }
+}
+
+header {
+    background-image: url(https://s1.gaming-cdn.com/img/products/8490/hcover/8490.jpg?v=1670245200);
+    height: 79vh;
+}
+
+/* Responsive navbar */
+@media only screen and (max-width: 667px) {
+    header {
+        background-image: url(https://s1.gaming-cdn.com/img/products/8490/hcover/8490.jpg?v=1670245200);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 20vh;
+    }
+}
+
+.line-container {
+    background-color: black;
+    height: 100px;
+    clip-path: polygon(0 100%, 100% 100%, 0 0);
+    margin-top: 13vh;
+}
+
+/* HEADER */
+
+/* Navbar */
+
+.navbar {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: baseline;
+	align-content: center;
+}
+
+@media only screen and (max-width: 668px) {
+    .logo {
+        max-width: 10vh;
+    }
+}
+
+/* Plateforme */
+
+.icon {
+    background: rgba(39, 39, 39, 0.8);
+    margin-left: 40%;
+    height: 45px;
+    display: flex;
+    backdrop-filter: blur(12px);
+    border-radius: 63px;
+}
+
+@media only screen and (max-width: 668px) {
+    .icon {
+        margin-left: 0vh;
+    }
+}
+
+.icon p {
+    color: white;
+}
+
+.icon svg {
+    padding: 1vh 0 0 1.2vh;
+}
+
+.icon .PC p {
+    margin-left: 5px;
+}
+
+.PC, .play, .xbox, .switch {
+    display: flex;
+}
+
+/* Responsive barre de recherche */
+@media only screen and (max-width: 667px) {
+    .PC {
+        max-width: 60px;
+        margin-top: 1vh;
+    }
+
+    .PC p {
+        font-size: 12px;
+    }
+
+    .PC .arrow {
+        max-width: 7px;
+        margin-left: -5px;
+    }
+
+    .play {
+        max-width: 110px;
+        margin-top: 1vh;
+    }
+
+    .play p {
+        font-size: 12px;
+        margin-left: 1vh;
+    }
+
+    .play .arrow {
+        max-width: 7px;
+        margin-left: -5px;
+    }
+
+    .xbox {
+        max-width: 110px;
+        margin-top: 1vh;
+    }
+
+    .xbox p {
+        font-size: 12px;
+        margin-left: 1vh;
+    }
+
+    .xbox .arrow {
+        max-width: 7px;
+        margin-left: -5px;
+    }
+
+    .switch {
+        max-width: 110px;
+        margin-top: 1vh;
+    }
+
+    .switch p {
+        font-size: 12px;
+        margin-left: 1vh;
+    }
+
+    .switch .arrow {
+        max-width: 7px;
+        margin-left: -5px;
+    }
+}
+
+.platform {
+display: flex;
+}
+
+/* Positionnement des icônes et texte dans la plateforme */
+
+.PC .arrow, .play .arrow, .xbox .arrow, .switch .arrow {
+    padding-top: 3vh;
+}
+
+.feature {
+    color: white;
+    font-weight: bold;
+    margin-top: 25vh;
+    margin-left: 15vh;
+    font-size: 36px;
+} 
+
+.union_price {
+    display: flex;
+    margin-top: -3vh;
+}
+
+.union_price p {
+    margin-top: 0vh;
+    margin-left: 2vh;
+}
+
+/* NOTICE */
+
+#notice {
+    background-image: url(https://www.instant-gaming.com/themes/igv2/modules/streamerBanner/images/background.png);
+    height: 401px;
+}
+
+.man {
+    margin-left: 20vh;
+    width: 288px;
+}
+
+.image-notice {
+    display: flex;
+}
+
+.image-notice p {
+    margin-top: 20vh;
+    margin-left: -40vh;
+    color: white;
+    text-align: center;
+}
+
+.stars {
+    margin-top: -30vh;
+    margin-left: 50vh;
+}
+
+.button-notice button {
+    background-color: #FF5400;
+    color: white;
+    height: 35px;
+    border-radius: 5px;
+    margin-top: 32vh;
+    margin-left: -45vh;
+}
+
+/* RESPONSIVE (autre) DANS LA NAVBAR */
+
+@media only screen and (max-width: 668px) {
+    .search {
+        max-width: 35px;
+        margin-left: 0.5vh;
+    }
+}
