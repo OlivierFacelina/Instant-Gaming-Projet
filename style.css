@@ -27,6 +27,29 @@ li a {
     color: white;
 }
 
+/* scrollbar */
+::-webkit-scrollbar {
+    width: 1.2vw;
+    height: 2vh;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #101010;
+    border-radius: 10px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #FF5400;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #d84a02;
+}
+
 @media only screen and (max-width: 667px) {
     li a {
         display: none;
@@ -122,16 +145,21 @@ header {
     display: flex;
 }
 
+.PC_svg, .play_svg, .xbox_svg, .switch_svg {
+    margin-top: 0.9vh;
+    margin-right: 0.5vh;
+}
+
 /* Responsive barre de recherche */
 @media only screen and (max-width: 667px) {
     .PC {
         max-width: 60px;
-        margin-top: 1vh;
         margin-right: 1.7vh;
     }
 
     .PC p {
         font-size: 12px;
+        padding-top: 1vh;
     }
 
     .PC .arrow {
@@ -141,13 +169,13 @@ header {
 
     .play {
         max-width: 110px;
-        margin-top: 1vh;
         margin-right: 1.7vh;
     }
 
     .play p {
         font-size: 12px;
         margin-left: 1vh;
+        padding-top: 1vh;
     }
 
     .play .arrow {
@@ -157,13 +185,13 @@ header {
 
     .xbox {
         max-width: 110px;
-        margin-top: 1vh;
         margin-right: 1.7vh;
     }
 
     .xbox p {
         font-size: 12px;
         margin-left: 1vh;
+        padding-top: 1vh;
     }
 
     .xbox .arrow {
@@ -173,12 +201,12 @@ header {
 
     .switch {
         max-width: 110px;
-        margin-top: 1vh;
     }
 
     .switch p {
         font-size: 12px;
         margin-left: 1vh;
+        padding-top: 1vh;
     }
 
     .switch .arrow {
