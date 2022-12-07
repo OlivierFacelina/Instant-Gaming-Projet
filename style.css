@@ -578,6 +578,11 @@ transition: .4s ease-in-out;
     border-radius: 5px;
     width: 35vh;
     height: 7vh;
+    transition: 0.5s ease-in-out;
+}
+
+.button-notice:hover {
+    background-color: #f5d02d;
 }
 
 @media only screen and (max-width: 668px) {
