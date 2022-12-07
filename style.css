@@ -646,29 +646,41 @@ transition: .4s ease-in-out;
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
 .white_txt_on_promo_downsite{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+#offer {
+    font-size: 16px;
+    color: #909090;
+}
+
 .orange_button button{
-          padding-left: 10px;
-          padding-top: 10px;
-          padding-right: 10px;
-          padding-bottom: 10px;
-          margin-left: 10px;
-          margin-top: 10px;
-          margin-right: 10px;
-          margin-bottom: 10px;
-          background-color: #ff5400;
-          color: #ffffff;
-          border-left-width: 1px;
-          border-top-width: 1px;
-          border-right-width: 1px;
-          border-bottom-width: 1px;
-          border-color: #ff5400;
-          border-radius: 5px;
-          cursor: pointer;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: #ff5400;
+    color: #ffffff;
+    border-left-width: 1px;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
 } 
+
+.orange_button button:hover {
+    background-color: #f5d02d;
+}
 
 /* FOOTER */
 
